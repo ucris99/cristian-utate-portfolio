@@ -1,29 +1,65 @@
+div {
+  border-radius: 10px;
+}
+
 .navbar {
-    background-color: rgb(165, 109, 64);
+    background-color: 	#ADD8E6;
     display: block;
     width: 100%;
     height: 50px;
 }
 
-
-.profile_picture {
-  width: 100%;
-  height: 200px;
-  background-color: blue;
-  margin: 5px;
-}
-
-
-.name_and_description {
-  width: 100%;
-  height: auto;
-  background-color: blue;
-  margin: 5px;
+.nav-link {
+  display: inline;
+  float: right; 
+  padding: 5px;
 }
 
 .grid-container {
   display: grid;
-  gap: 5px;
-  grid-template-columns: 1fr 5fr;
-  grid-template-rows: 200px 150px;
+  gap: 10px;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: auto auto;
+  margin-top: 10px;
+}
+
+.profile_picture {
+  width: 100%;
+  background-color:#ADD8E6;
+  margin: 5px;
+}
+
+.name_and_description {
+  width: 100%;
+  height: auto;
+  background-color: 	#ADD8E6;
+  margin: 5px;
+}
+
+.skills {
+  width: 100%;
+  background-color: 	#ADD8E6;
+  margin: 5px;
+}
+
+.projects {
+  width: 100%;
+  height: auto;
+  background-color: 	#ADD8E6;
+  margin: 5px;
+}
+
+h2, h1 {
+  text-align: center;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 25%;
+}
+
+p {
+  margin: 25px;
 }
